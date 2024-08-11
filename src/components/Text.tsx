@@ -32,12 +32,12 @@ const Text: FunctionComponent = () => {
 
   useEffect(() => {
     dispatch(fetchText(sentences));
-  }, [dispatch, sentences]);
+  }, [dispatch]);
 
   useEffect(() => {
     const newText = getCurrentChar(text, currentCharIndex);
     dispatch(setText(newText));
-  }, [dispatch, currentCharIndex, text]);
+  }, [dispatch, currentCharIndex]);
 
   useEffect(() => {
     if (pressingCount === 0 && text.length > 0) {
@@ -70,7 +70,7 @@ const Text: FunctionComponent = () => {
         document.removeEventListener("keypress", keyPressHandler);
       };
     }
-  }, [dispatch, text, pressingCount, currentCharIndex, mistakes]);
+  }, [dispatch, text]);
 
   return (
     <TestTextWrapper>
