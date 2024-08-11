@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/typer/static/css/main.f49d772b.css",
+    "main.js": "/typer/static/js/main.1355e833.js",
+    "index.html": "/typer/index.html",
+    "main.f49d772b.css.map": "/typer/static/css/main.f49d772b.css.map",
+    "main.1355e833.js.map": "/typer/static/js/main.1355e833.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f49d772b.css",
+    "static/js/main.1355e833.js"
+  ]
+}
